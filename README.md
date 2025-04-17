@@ -27,7 +27,7 @@ To set up the environment with `conda` use:
     conda env create -f environment.yml
     conda activate dataset
 ```
-For visualization use vis.ipynb and set the path to the model of interest in the second code cell with:
+For visualization use `vis.ipynb` or `vis.py` and set the path to the model of interest in the second code cell with:
 ```bash
     model_dir = Path("./dataset/path/to/model")
 ```
